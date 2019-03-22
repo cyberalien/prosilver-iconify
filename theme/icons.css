@@ -1,0 +1,56 @@
+/* --------------------------------------------------------------
+	$Icons
+-------------------------------------------------------------- */
+
+/* Global module setup
+--------------------------------*/
+
+/* Icon size classes - Default size is 14px, use these for small variations */
+
+.iconify.icon-xl {
+	font-size: 20px;
+}
+
+.iconify.icon-lg {
+	font-size: 16px;
+}
+
+.iconify.icon-md {
+	font-size: 10px;
+}
+
+.iconify.icon-sm {
+	font-size: 8px;
+}
+
+/* icon modifiers */
+.icon-tiny {
+	width: 12px;
+	transform: scale(0.65, 0.75);
+	vertical-align: text-bottom;
+	font-size: 16px;
+}
+
+.arrow-left .iconify {
+	float: left;
+}
+
+.arrow-left:hover .iconify {
+	margin-left: -5px;
+	margin-right: 5px;
+}
+
+.arrow-right .iconify {
+	float: right;
+}
+
+.arrow-right:hover .iconify {
+	margin-left: 5px;
+	margin-right: -5px;
+}
+
+.post-buttons .dropdown-contents .iconify {
+    float: right;
+    margin-left: 5px;
+}
+

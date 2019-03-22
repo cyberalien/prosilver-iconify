@@ -170,7 +170,7 @@ dl a.row-item-link {						/* topic row icon links */
 	line-height: 1em;
 }
 
-dl a.row-item-link.unread {
+dl a.row-item-link.read {
 	pointer-events: none;
 }
 

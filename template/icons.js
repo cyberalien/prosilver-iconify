@@ -24,7 +24,7 @@
 		    "sticky": "<g fill=\"currentColor\" fill-rule=\"evenodd\"><circle cx=\"16\" cy=\"24\" r=\"1.5\"/><path d=\"M16 21.5c.5 0 2.5-5.62 2.5-7a2.5 2.5 0 1 0-5 0c0 1.38 2 7 2.5 7zM10 7h6v1h-6zM10 9h12v1H10z\"/></g>",
 		    "topic-locked": "<g fill=\"none\" fill-rule=\"evenodd\"><path d=\"M29.5 24.5h1c.275 0 .5.225.5.5v5.5c0 .275-.225.5-.5.5h-8a.501.501 0 0 1-.5-.5V25c0-.275.225-.5.5-.5h1V23c0-1.105 1.895-2 3-2s3 .895 3 2v1.5z\" fill=\"#FFF\"/><path d=\"M28.5 25.5h1c.275 0 .5.225.5.5v3.5c0 .275-.225.5-.5.5h-6a.501.501 0 0 1-.5-.5V26c0-.275.225-.5.5-.5h1V24a2 2 0 1 1 4 0v1.5zm-1 0V24c0-.55-.45-1-1-1s-1 .45-1 1v1.5h2zM27 29l-.18-1.075a.749.749 0 1 0-.64 0L26 29h1z\" fill=\"currentColor\" fill-rule=\"nonzero\"/></g>",
 		    "topic-mine": "<g fill=\"none\" fill-rule=\"evenodd\"><path fill=\"#FFF\" d=\"M26.5 8.25l-3.233 1.7.618-3.6-2.616-2.55 3.615-.525L26.5 0l1.616 3.275 3.615.525-2.616 2.55.618 3.6z\"/><path fill=\"currentColor\" d=\"M26.5 7.25l-2.057 1.082.393-2.291-1.665-1.623 2.3-.334L26.5 2l1.029 2.084 2.3.334-1.665 1.623.393 2.29z\"/></g>",
-		    "topic": "<g fill=\"currentColor\" fill-rule=\"evenodd\"><path d=\"M9 9.5h12V11H9zM9 13h15v1.5H9zM9 16h15v1.5H9zM9 19h15v1.5H9zM9 22h8v1.5H9z\"/></g>"
+		    "topic": "<g fill=\"currentColor\" fill-rule=\"evenodd\"><path d=\"M9 9h12v2H9zM9 13h15v2H9zM9 17h15v2H9zM9 21h8v2H9z\"/></g>"
 		},
         oldIconExists = Iconify.iconExists,
         generated = {};

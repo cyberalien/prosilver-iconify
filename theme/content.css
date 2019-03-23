@@ -136,7 +136,8 @@ li.header dl.row-item dt .list-inner {
 }
 
 .topiclist .topic-poster .iconify {
-	font-size: 10px;
+	width: 10px;
+	height: 10px;
 }
 
 /* Forum list column styles */

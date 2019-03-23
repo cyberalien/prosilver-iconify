@@ -325,7 +325,8 @@ ul.forums {
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#D2E0EB', endColorstr='#EEF5F9',GradientType=0 ); /* IE6-9 */
 }
 
-a.row-item-link.unread {
+a.row-item-link.unread,
+a.row-item-link .layer-mine {
 	color: #BC2A4D;
 }
 
@@ -333,7 +334,8 @@ a.row-item-link.read {
 	color: #196db5;
 }
 
-a.row-item-link.read .layer-content {
+a.row-item-link.read .layer-content,
+a.row-item-link .layer-locked {
 	color: #666;
 }
 

@@ -5,6 +5,15 @@
 /* Global module setup
 --------------------------------*/
 
+i.iconify, span.iconify {
+	display: inline-block;
+	width: 1em;
+}
+
+.iconify.fw {
+	width: 1.28571429em;
+}
+
 /* Icon size classes - Default size is 14px, use these for small variations */
 
 .iconify.icon-xl {

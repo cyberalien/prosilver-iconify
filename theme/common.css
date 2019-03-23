@@ -1061,10 +1061,6 @@ ul.linklist:after,
 	display: block;
 }
 
-.iconify.fw {
-	width: 1.28571429em;
-}
-
 .emoji {
 	min-height: 18px;
 	min-width: 18px;

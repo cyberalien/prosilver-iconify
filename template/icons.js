@@ -20,9 +20,9 @@
 		        "defs": "<linearGradient x1=\"50%\" y1=\"0%\" x2=\"50%\" y2=\"100%\" id=\"sticky-background-a\"><stop stop-color=\"#DCDFE4\" offset=\"0%\"></stop><stop stop-color=\"#FFF\" offset=\"100%\"></stop></linearGradient>",
 		        "body": "<g fill=\"none\" fill-rule=\"evenodd\"><path d=\"M4 13C4 6.373 9.373 1 16 1s12 5.373 12 12c0 4.059-2.015 7.647-5.1 9.819a7 7 0 1 1-13.801 0A11.986 11.986 0 0 1 4 13z\" fill=\"currentColor\" fill-rule=\"nonzero\"/><path d=\"M9.675 22A10.984 10.984 0 0 1 5 13C5 6.925 9.925 2 16 2s11 4.925 11 11c0 3.625-1.765 6.952-4.675 9l-.516.364.106.622a6 6 0 1 1-11.83 0l.106-.622-.516-.363z\" fill=\"#FFF\" fill-rule=\"nonzero\"/><path d=\"M10.25 21.183l1.032.727-.211 1.244a5 5 0 1 0 9.858 0l-.211-1.244 1.031-.727A9.984 9.984 0 0 0 26 13c0-5.523-4.477-10-10-10S6 7.477 6 13a9.984 9.984 0 0 0 4.25 8.183z\" fill=\"url(#sticky-background-a)\"/></g>"
 		    },
-		    "sticky-locked": "<g fill=\"none\" fill-rule=\"evenodd\"><path d=\"M29.5 22.5h1c.275 0 .5.225.5.5v5.5c0 .275-.225.5-.5.5h-8a.501.501 0 0 1-.5-.5V23c0-.275.225-.5.5-.5h1V21c0-1.105 1.895-2 3-2s3 .895 3 2v1.5z\" fill=\"#FFF\"/><path d=\"M28.5 23.5h1c.275 0 .5.225.5.5v3.5c0 .275-.225.5-.5.5h-6a.501.501 0 0 1-.5-.5V24c0-.275.225-.5.5-.5h1V22a2 2 0 1 1 4 0v1.5zm-1 0V22c0-.55-.45-1-1-1s-1 .45-1 1v1.5h2zM27 27l-.18-1.075a.749.749 0 1 0-.64 0L26 27h1z\" fill=\"currentColor\" fill-rule=\"nonzero\"/></g>",
+		    "sticky-locked": "<g fill=\"none\" fill-rule=\"nonzero\"><path d=\"M28 23h.5c.827 0 1.5.673 1.5 1.5v4c0 .827-.673 1.5-1.5 1.5h-7c-.827 0-1.5-.673-1.5-1.5v-4c0-.827.673-1.5 1.5-1.5h.5v-1a3 3 0 1 1 6 0v1z\" fill=\"#FFF\"/><path d=\"M27 24h1.5c.275 0 .5.225.5.5v4c0 .275-.225.5-.5.5h-7a.501.501 0 0 1-.5-.5v-4c0-.275.225-.5.5-.5H23v-2a2 2 0 1 1 4 0v2zm-1 0v-2c0-.55-.45-1-1-1s-1 .45-1 1v2h2zm-.5 4l-.18-1.575a.749.749 0 1 0-.64 0L24.5 28h1z\" fill=\"currentColor\"/></g>",
 		    "sticky": "<g fill=\"currentColor\" fill-rule=\"evenodd\"><circle cx=\"16\" cy=\"24\" r=\"1.5\"/><path d=\"M16 21.5c.5 0 2.5-5.62 2.5-7a2.5 2.5 0 1 0-5 0c0 1.38 2 7 2.5 7zM10 7h6v1h-6zM10 9h12v1H10z\"/></g>",
-		    "topic-locked": "<g fill=\"none\" fill-rule=\"evenodd\"><path d=\"M29.5 24.5h1c.275 0 .5.225.5.5v5.5c0 .275-.225.5-.5.5h-8a.501.501 0 0 1-.5-.5V25c0-.275.225-.5.5-.5h1V23c0-1.105 1.895-2 3-2s3 .895 3 2v1.5z\" fill=\"#FFF\"/><path d=\"M28.5 25.5h1c.275 0 .5.225.5.5v3.5c0 .275-.225.5-.5.5h-6a.501.501 0 0 1-.5-.5V26c0-.275.225-.5.5-.5h1V24a2 2 0 1 1 4 0v1.5zm-1 0V24c0-.55-.45-1-1-1s-1 .45-1 1v1.5h2zM27 29l-.18-1.075a.749.749 0 1 0-.64 0L26 29h1z\" fill=\"currentColor\" fill-rule=\"nonzero\"/></g>",
+		    "topic-locked": "<g fill=\"none\" fill-rule=\"evenodd\"><path d=\"M29.5 24.5h1c.275 0 .5.225.5.5v5.5c0 .275-.225.5-.5.5h-8a.501.501 0 0 1-.5-.5V25c0-.275.225-.5.5-.5h1V23c0-1.105 1.895-2 3-2s3 .895 3 2v1.5z\" fill=\"#FFF\"/><path d=\"M28.5 25.5h1c.275 0 .5.225.5.5v3.5c0 .275-.225.5-.5.5h-6a.501.501 0 0 1-.5-.5V26c0-.275.225-.5.5-.5h1V24a2 2 0 1 1 4 0v1.5zm-1 0V24c0-.55-.45-1-1-1s-1 .45-1 1v1.5h2zM27 29l-.18-1.075a.749.749 0 1 0-.64 0L26 29h1z\" fill=\"currentColor\" fill-rule=\"nonzero\"/><path d=\"M30 25h.5c.827 0 1.5.673 1.5 1.5v4c0 .827-.673 1.5-1.5 1.5h-7c-.827 0-1.5-.673-1.5-1.5v-4c0-.827.673-1.5 1.5-1.5h.5v-1a3 3 0 1 1 6 0v1z\" fill=\"#FFF\" fill-rule=\"nonzero\"/><path d=\"M29 26h1.5c.275 0 .5.225.5.5v4c0 .275-.225.5-.5.5h-7a.501.501 0 0 1-.5-.5v-4c0-.275.225-.5.5-.5H25v-2a2 2 0 1 1 4 0v2zm-1 0v-2c0-.55-.45-1-1-1s-1 .45-1 1v2h2zm-.5 4l-.18-1.575a.749.749 0 1 0-.64 0L26.5 30h1z\" fill=\"currentColor\" fill-rule=\"nonzero\"/></g>",
 		    "topic-mine": "<g fill=\"none\" fill-rule=\"evenodd\"><path fill=\"#FFF\" d=\"M26.5 8.25l-3.233 1.7.618-3.6-2.616-2.55 3.615-.525L26.5 0l1.616 3.275 3.615.525-2.616 2.55.618 3.6z\"/><path fill=\"currentColor\" d=\"M26.5 7.25l-2.057 1.082.393-2.291-1.665-1.623 2.3-.334L26.5 2l1.029 2.084 2.3.334-1.665 1.623.393 2.29z\"/></g>",
 		    "topic": "<g fill=\"currentColor\" fill-rule=\"evenodd\"><path d=\"M9 9h12v2H9zM9 13h15v2H9zM9 17h15v2H9zM9 21h8v2H9z\"/></g>"
 		},
@@ -113,19 +113,12 @@
     }
 
     function generateTopicIcon(topicType, parts) {
-        var types = [topicType],
+        var types = [],
             read = true,
             locked = false,
+            hot = false,
             mine = false,
             layers;
-
-        if (topicType === 'global') {
-            types.push('announcement');
-        }
-        if (topicType !== 'topic') {
-            types.push('topic');
-        }
-        types.push('forum');
 
         parts.forEach(function(part) {
             switch (part) {
@@ -140,8 +133,21 @@
 
                 case 'locked':
                     locked = true;
+                    break;
+
+                case 'hot':
+                    hot = true;
             }
         });
+
+        types.push(topicType);
+        if (topicType === 'global') {
+            types.push('announcement');
+        }
+        if (topicType !== 'topic') {
+            types.push('topic');
+        }
+        types.push('forum');
 
         layers = [{
             layer: 'background',

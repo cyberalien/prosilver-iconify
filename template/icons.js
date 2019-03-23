@@ -6,14 +6,15 @@
 		    "announcement": "<g fill=\"currentColor\" fill-rule=\"nonzero\"><path d=\"M18.339 22.025c-.006.002-.559.186-1.039.186-.265 0-.372-.055-.406-.079-.168-.117-.48-.336.054-1.4l1-1.994c.593-1.184.681-2.329.245-3.225-.356-.733-1.039-1.236-1.92-1.416a4.776 4.776 0 0 0-.958-.097c-1.849 0-3.094 1.08-3.146 1.126a.5.5 0 0 0 .493.848c.005-.002.559-.187 1.039-.187.263 0 .369.055.402.078.169.118.482.34-.051 1.402l-1 1.995c-.594 1.185-.681 2.33-.245 3.225.356.733 1.038 1.236 1.921 1.416.314.063.636.097.954.097 1.85 0 3.096-1.08 3.148-1.126a.5.5 0 0 0-.491-.849z\"/><circle cx=\"17.5\" cy=\"10.501\" r=\"2.5\"/></g>",
 		    "forum-background": {
 		        "defs": "<linearGradient x1=\"50%\" y1=\"0%\" x2=\"50%\" y2=\"100%\" id=\"forum-background-a\"><stop stop-color=\"#DCDFE4\" offset=\"0%\"></stop><stop stop-color=\"#FFF\" offset=\"100%\"></stop></linearGradient>",
-		        "body": "<g fill=\"none\" fill-rule=\"evenodd\"><circle fill=\"url(#forum-background-a)\" cx=\"16\" cy=\"16\" r=\"13\"/><path d=\"M16 29c7.18 0 13-5.82 13-13S23.18 3 16 3 3 8.82 3 16s5.82 13 13 13zm0 1.5C7.992 30.5 1.5 24.008 1.5 16S7.992 1.5 16 1.5 30.5 7.992 30.5 16 24.008 30.5 16 30.5z\" fill=\"#FFF\" fill-rule=\"nonzero\"/><path d=\"M16 30c7.732 0 14-6.268 14-14S23.732 2 16 2 2 8.268 2 16s6.268 14 14 14zm0 1C7.716 31 1 24.284 1 16 1 7.716 7.716 1 16 1c8.284 0 15 6.716 15 15 0 8.284-6.716 15-15 15z\" fill=\"currentColor\" fill-rule=\"nonzero\"/></g>"
+		        "body": "<g fill=\"none\" fill-rule=\"evenodd\"><path d=\"M16 31C7.716 31 1 24.284 1 16 1 7.716 7.716 1 16 1c8.284 0 15 6.716 15 15 0 8.284-6.716 15-15 15z\" fill=\"currentColor\" fill-rule=\"nonzero\"/><path d=\"M16 30c7.732 0 14-6.268 14-14S23.732 2 16 2 2 8.268 2 16s6.268 14 14 14z\" fill=\"#FFF\" fill-rule=\"nonzero\"/><circle fill=\"url(#forum-background-a)\" cx=\"16\" cy=\"16\" r=\"13\"/></g>"
 		    },
 		    "forum-link": "<g fill=\"currentColor\" fill-rule=\"evenodd\"><path d=\"M8 8h8v1H8zM8 17h8v1H8zM8 20h16v1H8zM8 23h16v1H8z\"/><path d=\"M8 8h8v8h-2v-4.5L9.5 16 8 14.5l4.5-4.5H8z\"/></g>",
 		    "forum-locked": "<path d=\"M20 15h2c.55 0 1 .45 1 1v7c0 .55-.45 1-1 1H10c-.55 0-1-.45-1-1v-7c0-.55.45-1 1-1h2v-3c0-2.21 1.79-4 4-4s4 1.79 4 4v3zm-2 0v-3c0-1.1-.9-2-2-2s-2 .9-2 2v3h4zm-1 7l-.36-2.15c.51-.24.86-.75.86-1.35 0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5c0 .6.35 1.11.86 1.35L15 22h2z\" fill=\"currentColor\" fill-rule=\"nonzero\"/>",
-		    "forum-subforum": {
-		        "defs": "<linearGradient x1=\"50%\" y1=\"0%\" x2=\"50%\" y2=\"100%\" id=\"forum-subforum-a\"><stop stop-color=\"#DCDFE4\" offset=\"0%\"></stop><stop stop-color=\"#FFF\" offset=\"100%\"></stop></linearGradient>",
-		        "body": "<g fill=\"none\" fill-rule=\"evenodd\"><path fill=\"currentColor\" d=\"M8 8h8v1H8zM8 11h16v1H8zM8 14h16v1H8zM8 17h8v1H8zM8 20h6.5v1H8zM8 23h6.5v1H8z\"/><circle fill=\"url(#forum-subforum-a)\" cx=\"23\" cy=\"23\" r=\"5.5\"/><path d=\"M23 28a5 5 0 1 0 0-10 5 5 0 0 0 0 10zm0 1.5a6.5 6.5 0 1 1 0-13 6.5 6.5 0 0 1 0 13z\" fill=\"#FFF\" fill-rule=\"nonzero\"/><path d=\"M23 29a6 6 0 1 0 0-12 6 6 0 0 0 0 12zm0 1a7 7 0 1 1 0-14 7 7 0 0 1 0 14z\" fill=\"currentColor\" fill-rule=\"nonzero\"/><path fill=\"currentColor\" d=\"M20 20.5h3v1h-3zM20 22.5h6v1h-6zM20 24.5h6v1h-6z\"/></g>"
+		    "forum-subforum-background": {
+		        "defs": "<linearGradient x1=\"50%\" y1=\"0%\" x2=\"50%\" y2=\"100%\" id=\"forum-subforum-background-a\"><stop stop-color=\"#DCDFE4\" offset=\"0%\"></stop><stop stop-color=\"#FFF\" offset=\"100%\"></stop></linearGradient>",
+		        "body": "<g fill=\"none\" fill-rule=\"evenodd\"><path d=\"M16 31C7.716 31 1 24.284 1 16 1 7.716 7.716 1 16 1c8.284 0 15 6.716 15 15 0 8.284-6.716 15-15 15z\" fill=\"currentColor\" fill-rule=\"nonzero\"/><path d=\"M16 30c7.732 0 14-6.268 14-14S23.732 2 16 2 2 8.268 2 16s6.268 14 14 14z\" fill=\"#FFF\" fill-rule=\"nonzero\"/><circle fill=\"url(#forum-subforum-background-a)\" cx=\"16\" cy=\"16\" r=\"13\"/><path d=\"M23 31a8 8 0 1 1 0-16 8 8 0 0 1 0 16z\" fill=\"#FFF\" fill-rule=\"nonzero\"/><path d=\"M23 30a7 7 0 1 1 0-14 7 7 0 0 1 0 14z\" fill=\"currentColor\" fill-rule=\"nonzero\"/><path d=\"M23 29a6 6 0 1 0 0-12 6 6 0 0 0 0 12z\" fill=\"#FFF\" fill-rule=\"nonzero\"/><circle fill=\"url(#forum-subforum-background-a)\" cx=\"23\" cy=\"23\" r=\"5\"/></g>"
 		    },
+		    "forum-subforum": "<g fill=\"currentColor\" fill-rule=\"evenodd\"><path d=\"M8 8h8v1H8zM8 11h16v1H8zM8 14h16v1H8zM8 17h8v1H8zM8 20h6.5v1H8zM8 23h6.5v1H8zM20 20.5h3v1h-3zM20 22.5h6v1h-6zM20 24.5h6v1h-6z\"/></g>",
 		    "forum": "<g fill=\"currentColor\" fill-rule=\"evenodd\"><path d=\"M8 8h8v1H8zM8 11h16v1H8zM8 14h16v1H8zM8 17h8v1H8zM8 20h16v1H8zM8 23h16v1H8z\"/></g>",
 		    "sticky-background": {
 		        "defs": "<linearGradient x1=\"50%\" y1=\"0%\" x2=\"50%\" y2=\"100%\" id=\"sticky-background-a\"><stop stop-color=\"#DCDFE4\" offset=\"0%\"></stop><stop stop-color=\"#FFF\" offset=\"100%\"></stop></linearGradient>",
@@ -104,7 +105,7 @@
 
         return mix([{
             layer: 'background',
-            icon: ['forum-background']
+            icon: [forumType + '-background', 'forum-background']
         }, {
             layer: 'content',
             icon: [forumType, 'forum']

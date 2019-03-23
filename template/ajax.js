@@ -4,6 +4,20 @@
 
 'use strict';
 
+// Mark row as read
+phpbb.markAsRead = function($row, unreadClass, readClass) {
+    $row.removeClass(unreadClass).addClass(readClass);
+    $row.find('.row-item-link.unread').each(function() {
+        var $link = $(this);
+        $link.removeClass('unread').addClass('read');
+        $link.children('.iconify').each(function() {
+            var $icon = $(this);
+            $icon.replaceWith('<i class="' + $icon.attr('class') + '" data-icon="' + $icon.attr('data-icon').replace(/unread/g, 'read') + '" data-icon-inline="false"></i>');
+        });
+    });
+
+};
+
 // This callback will mark all forum icons read
 phpbb.addAjaxCallback('mark_forums_read', function(res) {
 	var readTitle = res.NO_UNREAD_POSTS;
@@ -19,14 +33,14 @@ phpbb.addAjaxCallback('mark_forums_read', function(res) {
 
 		$.each(iconsArray, function(unreadClass, readClass) {
 			if ($this.hasClass(unreadClass)) {
-				$this.removeClass(unreadClass).addClass(readClass);
+				phpbb.markAsRead($this, unreadClass, readClass);
 			}
 		});
 		$this.children('dt[title="' + unreadTitle + '"]').attr('title', readTitle);
 	});
 
 	// Mark subforums read
-	$('a.subforum[class*="unread"]').removeClass('unread').addClass('read').children('.icon.icon-red').removeClass('icon-red').addClass('icon-blue');
+	$('a.subforum[class*="unread"]').removeClass('unread').addClass('read').children('.iconify.icon-red').removeClass('icon-red').addClass('icon-blue');
 
 	// Mark topics read if we are watching a category and showing active topics
 	if ($('#active_topics').length) {
@@ -80,7 +94,7 @@ phpbb.addAjaxCallback('mark_topics_read', function(res, updateTopicLinks) {
 		var $this = $(this);
 		$.each(classMap, function(unreadClass, readClass) {
 			if ($this.hasClass(unreadClass)) {
-				$this.removeClass(unreadClass).addClass(readClass);
+				phpbb.markAsRead($this, unreadClass, readClass);
 			}
 		});
 		$this.children('dt[title="' + unreadTitle + '"]').attr('title', readTitle);

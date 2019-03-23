@@ -135,6 +135,10 @@ li.header dl.row-item dt .list-inner {
 	padding-right: 50px;
 }
 
+.topiclist .topic-poster .iconify {
+	font-size: 10px;
+}
+
 /* Forum list column styles */
 .row .list-inner { padding: 4px 0; }
 

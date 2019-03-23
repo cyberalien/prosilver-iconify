@@ -914,16 +914,16 @@ fieldset.fields1 dl.pmlist dd.recipients {
 }
 
 .phpbb_alert .alert_close {
-	font-size: 24px;
+	font-size: 14px;
 	line-height: 1em;
 	float: right;
 	margin-right: -36px;
 	margin-top: -8px;
+	border-radius: 50%;
+	padding: 2px;
 }
 
 .phpbb_alert .alert_close .iconify {
-	border-radius: 50%;
-	border: 1px solid currentColor;
 }
 
 .phpbb_alert p {
